@@ -62,7 +62,7 @@ class Application {
       //Initialize a new instance of the Ghost class
       let ghost = new Ghost(
       getRandomInt(0, this.width),
-      getRandomInt(this.height*0.6, this.height),
+      getRandomInt(400, this.height),
       this.context);
 
 
