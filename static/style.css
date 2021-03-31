@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Tinos&display=swap');
+
+html,body{
+    margin:0;
+    padding:0;
+    background-color:hsl(238deg 97% 7%);
+	text-align: center;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+#canvas{
+	margin:0 auto;
+    display:table;
+    pointer-events: none;
+	position:fixed;
+}
+
+.login h1{
+	float: bottom;
+	font-size: 30px;
+	border-bottom: 4px solid #2196f3;
+	font-family:'Montserrat', sans-serif;
+	margin-bottom: 10px;
+	color: white;
+	padding: 4px 0
+}
+
+.login h2{
+	float: bottom;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-family:'Montserrat', sans-serif;
+	color: white;
+	padding: 4px 0
+}
+
+
+
+.contact-title
+{
+    margin-top:50px;
+    color: #fff;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact-title h2
+{
+    font-size: 16px;
+	color: white;
+}
+
+form
+{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control
+{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input
+{
+    height: 45px;
+}
+
+form .submit
+{
+    width: 200px;
+	background: none;
+	border: 2px solid #2196f3;
+	color: white;
+	padding: 4px;
+	font-size: 22px;
+	cursor: pointer;
+	margin: 10px 0;
+	float: center;
+	color: #2196f3;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Tinos', serif;
+}
+
+
+form .submit:hover
+{
+    background-color: #002f75;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
