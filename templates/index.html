@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Spam-Ham SMS Classifier</title>
+  <link rel = "stylesheet" href = "static/style.css">
+</head>
+
+<body>
+	<canvas id = "canvas"></canvas>
+ <div class="login">
+	<script  src="static/script.js"></script>
+	    <h1>Ham-Spam SMS Classifier</h1>
+	    <h2>Enter your message below and check!</h2>
+	 
+	     
+	<div class="contact-form">
+	    <form id="contact-form" method="post" action="{{ url_for('check')}}">
+	    
+	        <textarea name="message" class="form-control" placeholder="Enter your message here..." row="4" required></textarea><br>
+	        <input type="submit" class="form-control submit" value="Check">
+			
+	    <h2>
+       {{ prediction_text }}
+		</h2>
+	
+		</div>
+	    </form> 
+	</div>
+</body>
+</html>
