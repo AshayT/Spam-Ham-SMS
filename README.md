@@ -8,5 +8,5 @@ The model has been deployed on Heroku:  [https://ham-spam-sms.herokuapp.com/](ht
 
 ### About data:
 #### Source : Kaggle [SMS Dataset](https://www.kaggle.com/uciml/sms-spam-collection-dataset)
-The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
+The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged as ham (legitimate) or spam.
 
