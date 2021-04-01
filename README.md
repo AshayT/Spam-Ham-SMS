@@ -1,7 +1,7 @@
 # Spam-Ham-SMS-Classifier-Web-App
 
 This is a machine learning classification project. The dataset is taken from Kaggle.
-The model takes text message as input to predict if it is a Spam or Ham (not spam).
+The model takes text message as input and predicts if it is a Spam or Ham (not spam).
 
 The model has been deployed on Heroku:  [https://ham-spam-sms.herokuapp.com/](https://ham-spam-sms.herokuapp.com/)
 
